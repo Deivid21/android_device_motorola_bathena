@@ -8,21 +8,21 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit from device
-$(call inherit-product, device/motorola/guamp/device.mk)
+$(call inherit-product, device/motorola/bathena/device.mk)
 
 # Inherit some common LineageOS stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := lineage_guamp
-PRODUCT_DEVICE := guamp
+PRODUCT_NAME := lineage_bathena
+PRODUCT_DEVICE := bathena
 PRODUCT_BRAND := motorola
-PRODUCT_MODEL := moto g(9) play
+PRODUCT_MODEL := Motorola Defy
 PRODUCT_MANUFACTURER := motorola
 
 PRODUCT_GMS_CLIENTID_BASE := android-motorola
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BuildDesc="guamp_retail-user 11 RPX31.Q2-58-17-7-5 2e132 release-keys" \
-    BuildFingerprint=motorola/guamp_retail/guamp:11/RPX31.Q2-58-17-7-5/2e132:user/release-keys \
-    DeviceProduct=guamp_retail
+    BuildDesc="bathena_retail-user 11 RZD31.31 bc31c release-keys" \
+    BuildFingerprint=motorola/bathena_retail/bathena:11/RZD31.31/bc31c:user/release-keys \
+    DeviceProduct=bathena_retail

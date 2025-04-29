@@ -6,10 +6,10 @@
 # Inherit from sm6225-common
 include device/motorola/sm6225-common/BoardConfigCommon.mk
 
-DEVICE_PATH := device/motorola/guamp
+DEVICE_PATH := device/motorola/bathena
 
 # Bootloader
-TARGET_BOOTLOADER_BOARD_NAME := guamp
+TARGET_BOOTLOADER_BOARD_NAME := bathena
 
 # Display
 TARGET_SCREEN_DENSITY := 280
@@ -35,7 +35,7 @@ ODM_MANIFEST_NC_FILES := $(DEVICE_PATH)/sku/manifest_nc.xml
 
 # Kernel
 BOARD_BOOT_HEADER_VERSION := 2
-TARGET_KERNEL_CONFIG += vendor/ext_config/guamp-default.config
+TARGET_KERNEL_CONFIG += vendor/ext_config/bathena-default.config
 
 # Kernel Modules - Audio
 TARGET_MODULE_ALIASES += \
@@ -61,11 +61,11 @@ TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/init/fstab.qcom
 TARGET_RECOVERY_UI_MARGIN_HEIGHT := 43
 
 # Security patch level
-BOOT_SECURITY_PATCH := 2022-09-01
+BOOT_SECURITY_PATCH := 2023-03-01
 VENDOR_SECURITY_PATCH := $(BOOT_SECURITY_PATCH)
 
 # Verified Boot
-BOARD_AVB_ROLLBACK_INDEX := 20
+BOARD_AVB_ROLLBACK_INDEX := 0
 
 # Inherit from the proprietary version
-include vendor/motorola/guamp/BoardConfigVendor.mk
+include vendor/motorola/bathena/BoardConfigVendor.mk
