@@ -1,4 +1,4 @@
-Device tree configuration for Motorola Moto G9
+Device tree configuration for Motorola Defy 2021
 
 
 ```

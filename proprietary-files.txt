@@ -1,4 +1,4 @@
-# All unpinned blobs below are extracted from guamp_retail RPX31.Q2-58-17-7-5
+# All unpinned blobs below are extracted from bathena_retail RZD31.31
 
 # ACDB
 vendor/etc/acdbdata/Bluetooth_cal.acdb
