@@ -122,6 +122,9 @@ vendor/lib64/libjpege.so
 vendor/lib64/liblmutils-ns.so
 vendor/lib64/libmctfengine_stub.so
 vendor/lib64/libmmcamera_cac3.so
+vendor/lib64/libmmcamera_faceproc2.so
+vendor/lib64/libmmcamera_faceproc.so
+vendor/lib64/libmmcamera_lscv35.so
 vendor/lib64/libmmcamera_mfnr.so
 vendor/lib64/libmot_afd.so
 vendor/lib64/libmot_lux_standardization.so
@@ -141,6 +144,7 @@ vendor/firmware/AbovCapSense.BIN
 
 # Display (Calibration Data)
 vendor/etc/qdcm_calib_data_mipi_mot_vid_djn_720p_652.xml
+vendor/etc/qdcm_calib_data_mipi_mot_vid_ft8006s_hlt_720p_652.xml
 vendor/etc/qdcm_calib_data_mipi_mot_vid_hlt_720p_652.xml
 vendor/etc/qdcm_calib_data_mipi_mot_vid_ili9882h_hlt_720p_652.xml
 vendor/etc/qdcm_calib_data_mipi_mot_vid_ili9882n_tm_720p_652.xml
@@ -229,12 +233,13 @@ vendor/etc/sensors/sns_reg_config
 # Thermal
 vendor/bin/thermal-engine
 vendor/etc/init/init_thermal-engine.rc
-vendor/etc/thermal-engine-guamp.conf
+vendor/etc/thermal-engine-bathena.conf
 vendor/etc/thermal-engine.conf
 vendor/lib/libthermalclient.so
 vendor/lib64/libthermalclient.so
 
 # Touchscreen firmware
+vendor/firmware/FOCAL_FW_HLT_FT8006S.bin
 vendor/firmware/ICNL9911.bin
 vendor/firmware/ILITEK_FW_HLT.hex
 vendor/firmware/ILITEK_FW_TM.hex
@@ -246,6 +251,7 @@ vendor/firmware/novatek_ts_fw.bin
 vendor/firmware/novatek_ts_mp.bin
 
 # Touchscreen firmware (recovery)
+vendor/firmware/FOCAL_FW_HLT_FT8006S.bin:recovery/root/vendor/firmware/FOCAL_FW_HLT_FT8006S.bin
 vendor/firmware/ICNL9911.bin:recovery/root/vendor/firmware/ICNL9911.bin
 vendor/firmware/ILITEK_FW_HLT.hex:recovery/root/vendor/firmware/ILITEK_FW_HLT.hex
 vendor/firmware/ILITEK_FW_TM.hex:recovery/root/vendor/firmware/ILITEK_FW_TM.hex
