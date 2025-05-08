@@ -1,3 +1,4 @@
+focaltech_touch_spi_mmi.ko
 himax_v3_mmi_hx83102d.ko
 himax_v3_mmi.ko
 ili9882_mmi.ko
