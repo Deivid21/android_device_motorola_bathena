@@ -1,4 +1,5 @@
 on boot
+   insmod /lib/modules/focaltech_touch_spi_mmi.ko
    insmod /lib/modules/himax_v3_mmi_hx83102d.ko
    insmod /lib/modules/himax_v3_mmi.ko
    insmod /lib/modules/ili9882_mmi.ko
